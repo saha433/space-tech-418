@@ -726,7 +726,7 @@ def plan_imaging(
         proj,
         fov_deg,
         off_nadir_limit_deg,
-        safe_margin_deg=1.5,
+        safe_margin_deg=0.8,
         per_target_limit=UNIFIED_CANDIDATES_PER_TARGET,
         min_time_separation_s=UNIFIED_MIN_TIME_SEPARATION_S,
     )
